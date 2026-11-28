@@ -12,10 +12,23 @@ let x=12
 // console.log(a==b)
 // console.log(a===b)
 
-console.log("hello"||"world");
-console.log(0||100);
-console.log(null && "javascript");
-console.log("React" && "Javascript");
+// console.log("hello"||"world");
+// console.log(0||100);
+// console.log(null && "javascript");
+// console.log("React" && "Javascript");
+
+console.log('A');
+ const test=async()=>{
+    console.log('B');
+    await Promise.resolve();
+    console.log('c');
+ }
+ test()
+ console.log('D');
+ 
+
+
+
 
 
 
